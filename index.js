@@ -2,7 +2,9 @@
 function betweenFiveAndTen(num) {
   if(num >= 5 && num <= 10) {
     return 'true'
-}   else return 'false'
+}   else {
+        return 'false'
+}
 
 
 //2
@@ -20,13 +22,13 @@ function betweenThirtyAndFifty(num){
 
 //4
 function betweenThirtyFiftySeventy(num){
-  if(num >= 0 && num <= 30 && num >= 50 && num <= 70) {
+  if((num >= 0 && num <= 30) || (num >= 50 && num <= 70)) {
     return 'true'
 }   else return 'false'
 
 //5
 function betweenTwentyFiftySixty(num){
- if(num >= 0 && num <= 20 && num >= 50 && num <= 60) {
+ if((num >= 0 && num <= 20) || (num >= 50 && num <= 60)) {
     return 'true'
 }   else return 'false'
 
